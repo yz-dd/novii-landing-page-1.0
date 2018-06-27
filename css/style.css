@@ -31,21 +31,23 @@ p {
   font-family: "DINPro-Light", sans-serif;
 }
 
-.navbar {
-  padding: .4rem 4vw;
-  background: #1A2948;
-}
-
 .padding {
   padding-bottom: 2rem;
 }
 
-.welcome {
-  width: 75%;
-  margin: 0 auto;
+.logo-font{
+  font-family: "NeoLatina", sans-serif;
+}
+
+::placeholder{
+  color:#D3D3D3;
 }
 
 /* navigation */
+.navbar {
+  padding: .4rem 4vw;
+  background: #1A2948;
+}
 
 .custom-toggler.navbar-toggler {
   border-color: rgb(255, 255, 255);
@@ -135,10 +137,39 @@ a.active {
   background-color: #F3F8F9;
 }
 
+/* team */
+.welcome {
+  width: 75%;
+  margin: 0 auto;
+}
+
 /* footer area */
 
 footer {
   background-color: #1A2948;
+  color:#fff;
+}
+
+input[type=text], input[type=email] {
+  display: inline-block;
+  background-color: #1A2948;
+  border:none;
+  border-bottom: 2px solid #fff;
+  padding:5px; 
+  margin-top: 20px; 
+}
+
+input[type=email]{
+  width:60%;
+}
+
+input[type=submit] {
+  display: inline-block;
+  background-color: #1A2948;
+  border:none;
+  padding-bottom:0;
+  vertical-align: bottom;
+  color:#D3D3D3;
 }
 
 /* social media */

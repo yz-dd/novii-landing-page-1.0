@@ -15,7 +15,7 @@
 <body>
 
     <!-- Navigation -->
-    <nav class="navbar navbar-expand-md navbar-dark sticky-top">
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top">
         <div class="container-fluid">
             <a class="navbar-brand" href="index.html">
                 <img class="header_logo" src="img/logo.png" alt="icon">
@@ -26,16 +26,16 @@
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a class="nav-link active display-4" href="#">Product</a>
+                        <a class="nav-link display-4" href="#product">Product</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link display-4" href="#">About</a>
+                        <a class="nav-link display-4" href="#about">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link display-4" href="#">The Team</a>
+                        <a class="nav-link display-4" href="#team">The Team</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link display-4" href="#">Contact</a>
+                        <a class="nav-link display-4" href="#contact">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -43,7 +43,7 @@
     </nav>
 
     <!--- Image Slider -->
-    <div id="slides" class="carousel slide" data-ride="carousel">
+    <div id="slides" class="carousel slide mt-5" data-ride="carousel">
         <ul class="carousel-indicators">
             <li data-target="#slides" data-slide-to="0" class="active"></li>
             <li data-target="#slides" data-slide-to="1"></li>
@@ -94,7 +94,7 @@
     </div>
 
     <!--- Product section -->
-    <div class="container-fluid padding">
+    <div class="container-fluid padding" id="product">
         <div class="row padding">
             <div class="col-md-12 col-lg-4">
                 <img src="img/tracking-icon.png" alt="tracking-icon" class="img-fluid">
@@ -141,7 +141,7 @@
     </div> -->
 
     <!--- About Section -->
-    <div class="container-fluid my-5">
+    <div class="container-fluid my-5" id="about">
         <div class="row text-center abt-bg">
             <div class="col-12">
                 <h3>About Us</h3>
@@ -163,7 +163,7 @@
     </div>
 
     <!--- Meet the team -->
-    <div class="container-fluid padding">
+    <div class="container-fluid padding" id="team">
         <div class="row welcome text-center">
             <div class="col-12">
                 <h3>Meet The Team</h3>
@@ -221,19 +221,16 @@
     </div>
     <!--- Footer -->
     <footer>
-        <div class="container-fluid padding">
+        <div class="container-fluid padding" id="contact">
             <div class="row">
                 <div class="col-md-6">
-                    <h5>NOVII</h5>
+                    <h3 class="logo-font">NOVII</h3>
                     <p>We will have more to share soon.</p>
-                    <form action="#"></form>
                     <div id="subscription">
                         <form action="#" method="post" id="subscribe-form" name="subscribe-form" class="validate" target="_blank" novalidate="">
-                            <div id="signup_scroll">
-                                <input type="text" name="name" value="" id="NAME" placeholder="Full name" required="">
+                                <input type="text" name="name" value="" id="NAME" placeholder="Full name" required=""><br>
                                 <input type="email" value="" autocomplete="off" name="EMAIL" class="email" id="EMAIL" placeholder="Your email" required="">
                                 <input type="submit" value="Subscribe →" name="subscribe" id="embedded-subscribe" class="button">
-                            </div>
                         </form>
                     </div>
                 </div>
