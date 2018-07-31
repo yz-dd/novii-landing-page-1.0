@@ -20,9 +20,11 @@
             <a class="navbar-brand" href="index.html">
                 <img class="header_logo" src="img/logo.png" alt="icon">
             </a>
-            <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+            <div class="containerX" data-toggle="collapse" data-target="#navbarResponsive" onclick="xFunction(this)">
+                    <div class="bar1"></div>
+                    <div class="bar2"></div>
+                    <div class="bar3"></div>
+            </div>
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
@@ -62,11 +64,11 @@
             <div class="carousel-item">
                 <img src="img/background2.png">
                 <div class="carousel-caption">
-                        <h1>NOVII</h1>
-                        <h5>Making personal training professional, more affordable, and effortless.</h5>
-                        <button type="button" class="btn btn-outline-light btn-md">VIEW DEMO</button>
-                        <button type="button" class="btn btn-primary btn-md">Train with us</button>
-                    </div>
+                    <h1>NOVII</h1>
+                    <h5>Making personal training professional, more affordable, and effortless.</h5>
+                    <button type="button" class="btn btn-outline-light btn-md">VIEW DEMO</button>
+                    <button type="button" class="btn btn-primary btn-md">Train with us</button>
+                </div>
             </div>
             <div class="carousel-item">
                 <img src="img/background3.png">
@@ -82,199 +84,208 @@
 
     <!--- Intro section -->
     <main>
-    <div class="container-fluid my-5">
-        <div class="row text-center">
-            <div class="col-12">
-                <h3>Ultimate Fitness Solution</h3>
-            </div>
-            <hr>
-            <div class="col-12">
-                <p class="lead">Exclusive Features + Unique Hardeware</p>
+        <div class="container-fluid mt-5">
+            <div class="row text-center">
+                <div class="col-12">
+                    <h3>Ultimate Fitness Solution</h3>
+                </div>
+                <hr>
+                <div class="col-12">
+                    <p class="lead">Exclusive Features + Unique Hardeware</p>
+                </div>
             </div>
         </div>
-    </div>
 
-    <!--- Product section -->
-    <div class="container-fluid padding" id="product">
-        <div class="row padding d-flex justify-content-center align-items-center mb-5">
-            <div class="col-md-3 p1">
-                <img src="img/tracking-icon.png" alt="tracking-icon" class="img-fluid product-icon">
-                <h5>EFFORTLESS TRACKING AND PERSONALIZED PROGRAMS</h5>
-                <p>With both hardware and software, exercisers can view their training plan, progress, and share achievements.
-                    Trainers can design personalized programs and keep track clients’ progress. Wherever you go, everything
-                    is synced up.
-                </p>
+        <!--- Product section -->
+        <div class="container-fluid padding" id="product">
+            <div class="row d-flex justify-content-center align-items-center mb-5">
+                <div class="col-md-5 p1">
+                    <img src="img/tracking-icon.png" alt="tracking-icon" class="img-fluid product-icon">
+                    <h5>EFFORTLESS TRACKING AND PERSONALIZED PROGRAMS</h5>
+                    <p>With both hardware and software, exercisers can view their training plan, progress, and share achievements.
+                        Trainers can design personalized programs and keep track clients’ progress. Wherever you go, everything
+                        is synced up.
+                    </p>
+                </div>
+                <div class="col-md-5 text-right p2">
+                    <img src="img/tracking-img.png" alt="tracking-img" class="img-fluid product-img">
+                </div>
             </div>
-            <div class="col-md-5 text-right p2">
-                <img src="img/tracking-img.png" alt="tracking-img" class="img-fluid product-img">
+            <div class="row d-flex justify-content-center align-items-center mb-5">
+                <div class="col-md-5 p3">
+                    <img src="img/rate-img.png" alt="rate-img" class="img-fluid  product-img">
+                </div>
+                <div class="col-md-5 p4">
+                    <img src="img/rate-icon.png" alt="tracking-icon" class="img-fluid product-icon">
+                    <h5>TRAIN WHEREVER WITH PORTABLE HARDWARE AND AFFORDABLE RATE</h5>
+                    <p>Install on any gym machine and train at remote locations. Save over 25% off the training rate at fitness
+                        centers with flexible schedule.
+                    </p>
+                </div>
+            </div>
+            <div class="row d-flex justify-content-center align-items-center mb-5">
+                <div class="col-md-5 p5">
+                    <img src="img/coaching-icon.png" alt="coacking-icon" class="img-fluid product-icon">
+                    <h5>EFFORTLESS TRACKING AND PERSONALIZED PROGRAMS</h5>
+                    <p>Find the best trainer for you based on trainers’ specialties, locations, and experience etc. Get professional
+                        guidance on achiving your fitness goals.
+                    </p>
+                </div>
+                <div class="col-md-5 text-right p6">
+                    <img src="img/coaching-img.png" alt="coaching-img" class="img-fluid product-img">
+                </div>
             </div>
         </div>
-        <div class="row padding d-flex justify-content-center align-items-center mb-5">
-            <div class="col-md-5 p3">
-                <img src="img/rate-img.png" alt="rate-img" class="img-fluid  product-img">
-            </div>
-            <div class="col-md-3 p4">
-                <img src="img/rate-icon.png" alt="tracking-icon" class="img-fluid product-icon">
-                <h5>TRAIN WHEREVER WITH PORTABLE HARDWARE AND AFFORDABLE RATE</h5>
-                <p>Install on any gym machine and train at remote locations. Save over 25% off the training rate at fitness
-                    centers with flexible schedule.
-                </p>
-            </div>
-        </div>
-        <div class="row padding d-flex justify-content-center align-items-center mb-5">
-            <div class="col-md-3 p5">
-                <img src="img/coaching-icon.png" alt="coacking-icon" class="img-fluid product-icon">
-                <h5>EFFORTLESS TRACKING AND PERSONALIZED PROGRAMS</h5>
-                <p>Find the best trainer for you based on trainers’ specialties, locations, and experience etc. Get professional
-                    guidance on achiving your fitness goals.
-                </p>
-            </div>
-            <div class="col-md-5 text-right p6">
-                <img src="img/coaching-img.png" alt="coaching-img" class="img-fluid product-img">
-            </div>
-        </div>
-    </div>
 
-    <!--- Fixed background -->
-    <!-- <div class="fixed-wrap">
+        <!--- Fixed background -->
+        <!-- <div class="fixed-wrap">
         <div id="fixed">
         </div>
     </div> -->
 
-    <!--- About Section -->
-    <div class="container-fluid abt-bg py-5 mb-5" id="about">
-        <div class="row text-center">
-            <div class="col-12">
-                <h3>About Us</h3>
-            </div>
-            <div class="col-md-6 mx-auto">
-                <p>At Novii, our mission has been to help people attain optimal physical health through our intelligent fitness
-                    solution. We’re building the platform that connects excercisers and professional trainers with the apps,
-                    hardwares, and services they need to train professionally. With the mobile application and tracking hardware,
-                    Novii users can train with professional trainers, flexible schedule, and in remote locations. Novii helps
-                    making personal training professional, more affordable and effortless.
-                </p>
-            </div>
-        </div>
-        <div class="row d-flex justify-content-center">
-            <img src="img/health.png" alt="health" class="img-fluid mx-5 abt-icon">
-            <img src="img/connect.png" alt="connect" class="img-fluid mx-5 abt-icon">
-            <img src="img/goal.png" alt="goal" class="img-fluid mx-5 abt-icon">
-        </div>
-    </div>
-
-    <!--- Meet the team -->
-    <div class="container-fluid padding my-5" id="team">
-        <div class="row welcome text-center">
-            <div class="col-12 mt-5">
-                <h3>Meet The Team</h3>
-            </div>
-        </div>
-    </div>
-    <!--- Cards - team members -->
-    <div class="container-fluid padding mb-5">
-        <div class="row padding px-5">
-            <div class="col-md-3">
-                <div class="card">
-                    <img src="img/Dmitry.jpg" alt="Dmitry" class="card-img-top img-fluid">
-                    <div class="card-body">
-                        <h5 class="card-title">
-                            Dmitry Gusev
-                        </h5>
-                        <p class="card-text">Dimitry is a mechatronic engineer.Dimitry is a mechatronic engineer.Dimitry is a mechatronic engineer.</p>
-                    </div>
+        <!--- About Section -->
+        <div class="container-fluid abt-bg py-5 mb-5" id="about">
+            <div class="row text-center">
+                <div class="col-12">
+                    <h3>About Us</h3>
+                </div>
+                <div class="col-md-6 mx-auto">
+                    <p>At Novii, our mission has been to help people attain optimal physical health through our intelligent
+                        fitness solution. We’re building the platform that connects excercisers and professional trainers
+                        with the apps, hardwares, and services they need to train professionally. With the mobile application
+                        and tracking hardware, Novii users can train with professional trainers, flexible schedule, and in
+                        remote locations. Novii helps making personal training professional, more affordable and effortless.
+                    </p>
                 </div>
             </div>
-            <div class="col-md-3">
-                <div class="card">
-                    <img src="img/Dmitry.jpg" alt="Dmitry" class="card-img-top img-fluid">
-                    <div class="card-body">
-                        <h5 class="card-title">
-                            Dmitry Gusev
-                        </h5>
-                        <p class="card-text">Dimitry is a mechatronic engineer.Dimitry is a mechatronic engineer.Dimitry is a mechatronic engineer</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3">
-                <div class="card">
-                    <img src="img/Dmitry.jpg" alt="Dmitry" class="card-img-top img-fluid">
-                    <div class="card-body">
-                        <h5 class="card-title">
-                            Dmitry Gusev
-                        </h5>
-                        <p class="card-text">Dimitry is a mechatronic engineer.Dimitry is a mechatronic engineer.Dimitry is a mechatronic engineer</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3">
-                <div class="card">
-                    <img src="img/Dmitry.jpg" alt="Dmitry" class="card-img-top img-fluid">
-                    <div class="card-body">
-                        <h5 class="card-title">
-                            Dmitry Gusev
-                        </h5>
-                        <p class="card-text">Dimitry is a mechatronic engineer.Dimitry is a mechatronic engineer.Dimitry is a mechatronic engineer</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!--- Footer -->
-    <footer>
-        <div class="container-fluid padding py-5" id="contact">
             <div class="row d-flex justify-content-center">
-                <div class="col-md-5">
-                    <h3 class="logo-font">NOVII</h3>
-                    <p>We will have more to share soon.</p>
-                    <div id="subscription">
-                        <form action="#" method="post" id="subscribe-form" name="subscribe-form" class="validate" target="_blank" novalidate="">
-                                <input type="text" name="name" value="" id="NAME" placeholder="Full name" required=""><br>
+                <img src="img/health.png" alt="health" class="img-fluid mx-5 abt-icon">
+                <img src="img/connect.png" alt="connect" class="img-fluid mx-5 abt-icon">
+                <img src="img/goal.png" alt="goal" class="img-fluid mx-5 abt-icon">
+            </div>
+        </div>
+
+        <!--- Meet the team -->
+        <div class="container-fluid padding my-5" id="team">
+            <div class="row welcome text-center">
+                <div class="col-12 mt-5">
+                    <h3>Meet The Team</h3>
+                </div>
+            </div>
+        </div>
+        <!--- Cards - team members -->
+        <div class="container-fluid padding mb-5">
+            <div class="row padding px-5">
+                <div class="col-md-6 col-lg-3">
+                    <div class="card">
+                        <img src="img/Dmitry.jpg" alt="Dmitry" class="card-img-top img-fluid">
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                Dmitry Gusev
+                            </h5>
+                            <p class="card-text">Dimitry is a mechatronic engineer.Dimitry is a mechatronic engineer.Dimitry is a mechatronic
+                                engineer.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="card">
+                        <img src="img/Dmitry.jpg" alt="Dmitry" class="card-img-top img-fluid">
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                Dmitry Gusev
+                            </h5>
+                            <p class="card-text">Dimitry is a mechatronic engineer.Dimitry is a mechatronic engineer.Dimitry is a mechatronic
+                                engineer
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="card">
+                        <img src="img/Dmitry.jpg" alt="Dmitry" class="card-img-top img-fluid">
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                Dmitry Gusev
+                            </h5>
+                            <p class="card-text">Dimitry is a mechatronic engineer.Dimitry is a mechatronic engineer.Dimitry is a mechatronic
+                                engineer
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="card">
+                        <img src="img/Dmitry.jpg" alt="Dmitry" class="card-img-top img-fluid">
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                Dmitry Gusev
+                            </h5>
+                            <p class="card-text">Dimitry is a mechatronic engineer.Dimitry is a mechatronic engineer.Dimitry is a mechatronic
+                                engineer
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--- Footer -->
+        <footer>
+            <div class="container-fluid padding py-5" id="contact">
+                <div class="row d-flex justify-content-center">
+                    <div class="col-md-5">
+                        <h3 class="logo-font">NOVII</h3>
+                        <p>We will have more to share soon.</p>
+                        <div id="subscription">
+                            <form action="#" method="post" id="subscribe-form" name="subscribe-form" class="validate" target="_blank" novalidate="">
+                                <input type="text" name="name" value="" id="NAME" placeholder="Full name" required="">
+                                <br>
                                 <input type="email" value="" autocomplete="off" name="EMAIL" class="email" id="EMAIL" placeholder="Your email" required="">
                                 <input type="submit" value="Subscribe →" name="subscribe" id="embedded-subscribe" class="button">
-                        </form>
-                    </div>
-                </div>
-                <div class="col-md-5">
-                    <div class="row padding justify-content-around">
-                        <div class="col-md-6">
-                            <h5>OFFICE</h5>
-                            <p>920-1000 Symour Street</p>
-                            <p>Vancouver, BC V6B 9W9</p>
-                            <p>Canada</p>
+                            </form>
                         </div>
-                        <div class="col-md-6">
-                            <h5>CONTACT</h5>
-                            <p>info@novii.com</p>
-                            <p>604-828-1234</p>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="row padding justify-content-around">
+                            <div class="col-md-6">
+                                <h5>OFFICE</h5>
+                                <p>920-1000 Symour Street</p>
+                                <p>Vancouver, BC V6B 9W9</p>
+                                <p>Canada</p>
+                            </div>
+                            <div class="col-md-6">
+                                <h5>CONTACT</h5>
+                                <p>info@novii.com</p>
+                                <p>604-828-1234</p>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <!--- Social -->
-        <div class="container-fluid">
-            <div class="row text-center">
-                <div class="col-12 social padding">
-                    <a href="#">
-                        <i class="fab fa-facebook"></i>
-                    </a>
-                    <a href="#">
-                        <i class="fab fa-linkedin"></i>
-                    </a>
-                    <a href="#">
-                        <i class="fab fa-twitter"></i>
-                    </a>
-                    <a href="#">
-                        <i class="fab fa-instagram"></i>
-                    </a>
+            <!--- Social -->
+            <div class="container-fluid">
+                <div class="row text-center">
+                    <div class="col-12 social padding">
+                        <a href="#">
+                            <i class="fab fa-facebook"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="col-12 text-center cr">
-            <p>&copy 2018 Novii. All rights reserved.</p>
-        </div>
-    </main>   
+            <div class="col-12 text-center cr">
+                <p>&copy 2018 Novii. All rights reserved.</p>
+            </div>
+    </main>
     </footer>
 
     <!-- jQuery, Popper, fontawsome and Bootstrap JS -->
@@ -282,6 +293,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js "></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js "></script>
     <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js "></script>
+    <script src="js/main.js"></script>
 </body>
 
 </html>
